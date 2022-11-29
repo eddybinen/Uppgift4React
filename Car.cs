@@ -10,5 +10,11 @@ namespace Uppgift4React
     {
         public string _make { get; set; }
         public string _model { get; set; }
+
+        public Car(string make, string model)
+        {
+            _make = make;
+            _model = model;
+        }
     }
 }
